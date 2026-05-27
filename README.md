@@ -1,36 +1,139 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UI Essentials Cheatsheet
 
-## Getting Started
+An interactive frontend learning project built with Next.js, Tailwind CSS, and Framer Motion.
 
-First, run the development server:
+This project is designed as a growing collection of practical UI engineering playgrounds and visual reference pages focused on modern frontend fundamentals.
+
+Instead of blindly copying components, the goal is to understand:
+
+* layout systems
+* spacing rhythm
+* typography hierarchy
+* responsive design
+* reusable UI patterns
+* component architecture
+* animation principles
+* product-style frontend development
+
+---
+
+# Stack
+
+* Next.js
+* TypeScript
+* Tailwind CSS v4
+* Framer Motion
+
+---
+
+# Current Pages
+
+## UI Fundamentals
+
+A visual cheatsheet covering:
+
+* spacing
+* typography
+* colour usage
+* cards
+* buttons
+* hierarchy
+* animation
+* interactive states
+
+The page is heavily commented to explain:
+
+* why classes are used
+* what different utilities control
+* how visual hierarchy works
+* how spacing affects layout quality
+
+---
+
+## Layout Systems Playground
+
+An interactive learning page covering:
+
+* containers
+* flexbox
+* CSS grid
+* responsive layouts
+* spacing systems
+* common UI structures
+* alignment principles
+
+Built to help reinforce real layout understanding instead of memorising random Tailwind classes.
+
+---
+
+# Goals
+
+This repo exists to improve:
+
+* frontend engineering skills
+* UI system thinking
+* layout understanding
+* reusable component architecture
+* product UI design ability
+
+It also acts as a long-term frontend reference library that can continuously expand over time.
+
+Planned future playgrounds include:
+
+* typography systems
+* accessibility fundamentals
+* component architecture
+* animation systems
+* SaaS dashboard patterns
+* state management visualisation
+* theme systems
+
+---
+
+# Running Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/LouieCRK/ui-essentials-cheatsheet.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```txt
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# Why This Exists
 
-To learn more about Next.js, take a look at the following resources:
+A lot of frontend tutorials teach people how to copy interfaces.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Very few teach:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* why layouts work
+* how hierarchy affects usability
+* how spacing creates rhythm
+* how reusable systems are structured
+* how real product UIs are assembled
 
-## Deploy on Vercel
+This project focuses on understanding the reasoning behind modern frontend UI patterns.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Author
+
+Built by [Louie Crook](https://www.louiecrook.co.uk)
