@@ -1,6 +1,7 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
+import Navbar from '../components/navbar';
 
 /**
  * Layout Systems Playground
@@ -91,7 +92,9 @@ function SectionHeader({ eyebrow, title, children }: { eyebrow: string; title: s
 export default function LayoutSystemsPlayground() {
   return (
     <main className="min-h-screen bg-zinc-950 text-white">
-      {/*
+  <Navbar />
+
+{/*
         PAGE WRAPPER
         px-6 gives mobile breathing room.
         py-20 gives vertical breathing room.
@@ -326,3 +329,5 @@ export default function LayoutSystemsPlayground() {
     </main>
   )
 }
+
+      

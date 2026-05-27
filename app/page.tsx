@@ -1,5 +1,6 @@
 'use client'
 import { motion } from 'framer-motion';
+import Navbar from './components/navbar';
 
 /**
  * UI Design Fundamentals Cheatsheet
@@ -79,8 +80,11 @@ const cardExamples = [
 
 export default function UIDesignFundamentalsCheatsheet() {
   return (
+    
     <main className="min-h-screen bg-zinc-950 text-white">
-      {/*
+  <Navbar />
+
+{/*
         PAGE BACKGROUND
         bg-zinc-950 = near black, softer than pure black.
         text-white = default text colour.
@@ -278,44 +282,9 @@ export default function UIDesignFundamentalsCheatsheet() {
               </button>
             </div>
           </section>
-
-{/* 
-  NEXT PAGE CTA
-  This acts like a learning path between playgrounds.
-*/}
-<a
-  href="/layout-systems"
-  className="group mt-20 block overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-400 to-cyan-300 p-8 text-zinc-950 transition hover:scale-[1.01]"
->
-  <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
-    <div className="max-w-3xl">
-      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-zinc-900/60">
-        Next playground
-      </p>
-
-      <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
-        Learn layout systems properly.
-      </h2>
-
-      <p className="mt-4 text-lg leading-8 text-zinc-900/75">
-        Understand flexbox, grid, containers, responsive layouts, spacing
-        rhythm, and the structure behind modern interfaces.
-      </p>
-    </div>
-
-    {/* 
-      Arrow pill
-      group-hover lets the child react when the parent is hovered.
-    */}
-    <div className="flex items-center">
-      <div className="rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white transition group-hover:translate-x-1">
-        Open layout playground →
-      </div>
-    </div>
-  </div>
-</a>
         </div>
       </section>
     </main>
   );
 }
+      
